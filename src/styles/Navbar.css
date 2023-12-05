@@ -1,0 +1,24 @@
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.navbar-container .navbar-navitems .navitems-list{
+    display: flex;
+    list-style: none;
+}
+.navbar-container .navbar-navitems .navitems-list li{
+    margin-left: 15px;
+}
+.navbar-container .navbar-register-button button{
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;  
+    font-weight: 500;  
+    background-color: rgb(236, 236, 236);
+}

@@ -1,10 +1,11 @@
 import React from 'react'
+import '../styles/TextContainer.css'
 
 const TextContainer = () => {
   return (
     <div className='textcontainer'>
         <div className="textcontainer-htext">
-            Get ready to <span>supercharge</span>your goal- setting and planning with AI Planner.
+            Get ready to <span>supercharge</span> your goal- setting and planning with AI Planner.
         </div>
         <div className="textcontainer-input">
             <input type="email" placeholder='Enter your email' required />

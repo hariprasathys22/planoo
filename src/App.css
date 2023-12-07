@@ -5,7 +5,10 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .app-container{
+  height: 130vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: left;
+  background-color: rgb(236, 236, 236);
 }

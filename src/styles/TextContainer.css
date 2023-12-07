@@ -1,0 +1,55 @@
+.textcontainer{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 110px;
+    align-items: left;
+}
+.textcontainer .textcontainer-htext{
+    width: 70%;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #aaa;
+}
+.textcontainer .textcontainer-htext span{
+    color: #000;
+}
+.textcontainer-input{
+    width: 100%;
+    position: relative;
+    margin-top: -60px;
+}
+
+.textcontainer-input input{
+    padding: 14px ;
+    width: 60%;
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    text-align: left;
+    outline: none;
+    
+}
+.textcontainer-input input[type="email"]::placeholder{
+    text-align: start;
+    color: rgba(119, 119, 119, 0.699);
+    font-weight: 600;
+}
+.textcontainer-input input:active{
+    border: none;
+}
+
+.textcontainer-input button{
+    padding: 14px 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    margin-left: 280px;
+}
+.textcontainer-ptext{
+    font-size: 16px;
+}
